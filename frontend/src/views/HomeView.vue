@@ -5,6 +5,7 @@ const store = useRequestStore();
 
 const ls = JSON.parse(localStorage.getItem('userDemoData'));
 const isAdmin = ls.login === 'adminka' && ls.password === 'password';
+console.log(isAdmin)
 </script>
 
 <template>

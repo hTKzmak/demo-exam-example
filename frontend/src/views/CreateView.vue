@@ -32,6 +32,7 @@ function submitFunc(e) {
             console.log(data)
             // обновление данных
             store.fetchData()
+            store.fetchUserReqData()
             router.push("/");
         })
 }
